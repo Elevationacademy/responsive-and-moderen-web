@@ -1,0 +1,47 @@
+html {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#my-div {
+    background: #94618e;
+    width: 60vw;
+    color: #fff;
+    font-size: 3rem;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1024px) {
+    #my-div {
+        background: red;
+    }
+}
+
+.foo, .bar {
+    padding: 20px;
+}
+
+.foo {
+    background: #f4decb;
+    font-size: 2em;
+}
+
+.bar {
+    font-weight: bold;
+    font-size: 1em;
+    background: #49274a;
+}
+
+.lorem:hover {
+    color: #9d271b;
+}
